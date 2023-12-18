@@ -18,7 +18,7 @@
 .side_img{
     width: 35vw;
     height: 100vh;
-    background-image: url(images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 
@@ -58,7 +58,7 @@ p{
 }
 .info{
     width: 65vw;
-    height: 35vh;
+    height: 30vh;
     background-color: var(--bg-color);
 
     p{
@@ -70,15 +70,36 @@ p{
 }
 #frm{
     width: 65vw;
-    height: 35vh;
+    height: 40vh;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1); 
     position: relative;
     z-index: 10;
     background-color: #f1f1f1e8;
+    display: inline-block;
+    font-size: 18px;
+
+    p{
+        font-size: 1.1rem;
+        margin: 15px 40px;
+        font-weight: 600;
+    }
+}
+.frmContainer{
+    display: flex;
+    flex-direction: space-evenly;
+    width: 40vw;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+input{
+    width: 250px;
+    font-size: 18px;
+    margin-right: 50px;
+    border: 1px solid rgba(24, 24, 24, 0.349); 
 }
 .btns_holder{
     width: 65vw;    
-    height: 35vh;
+    height: 30vh;
     background-color: var(--bg-color);
 
     button{
@@ -91,12 +112,13 @@ p{
         border-radius: 10px;
         box-shadow: 7px 7px 7px 0px rgba(117, 117, 117, 0.13);
         color: rgb(255, 255, 255);
-        margin: 30px 30px;
+        margin: 30px 40px;
+        cursor: pointer;
     }
 
     p{
         font-size: 1.1rem;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     a{
         font-weight: 600;

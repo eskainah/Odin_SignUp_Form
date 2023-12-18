@@ -6,6 +6,7 @@
     <title>Sign Up |Inner Beauty</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
@@ -29,6 +30,41 @@
                 </div>
                 <form id="frm" action="" method="post">
                     <p>Let's do this!</p>
+                    <div class="frmContainer">
+                       <div>
+                        <label for="fName" >First Name</label> <br>
+                        <input type="text" tabindex="1" >
+                       </div>
+
+                        <div>
+                            <label for="lName">Last Name</label> <br>
+                            <input type="text" tabindex="2">
+                        </div>
+                    </div>
+
+                    <div class="frmContainer">
+                        <div>
+                            <label for="email">Email</label> <br>
+                            <input type="email">
+                        </div>
+
+                        <div>
+                            <label for="phNum"></label> Phone Number<br>
+                            <input type="number">
+                        </div>
+                    </div>
+                    
+                   <div class="frmContainer">
+                        <div>
+                            <label for="pwd">Password</label> <br>
+                            <input type="password" maxlength="6" pattern="[A-Za-z0-9]+">
+                        </div>
+
+                        <div>
+                            <label for="ComPwd">Comfirm Password</label> <br>
+                            <input type="password" maxlength="6" pattern="[A-Za-z0-9]+">
+                        </div>
+                   </div>
                 </form>
                 <div class="btns_holder">
                     <button type="submit">Create Account</button>
@@ -37,5 +73,8 @@
             </div>
         </div>
     </main>
+    <script>
+    
+    </script>
 </body>
 </html>
