@@ -18,7 +18,7 @@
 .side_img{
     width: 35vw;
     height: 100vh;
-    background-image: url(../images/bg.jpg);
+    background-image: url(./images/bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 
