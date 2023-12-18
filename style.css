@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+:root{
+    --bg-color: #8886860c;
+    --font-color: rgb(110, 109, 110);
+}
 *{
     margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    
   }
 
 .container{
@@ -21,7 +25,7 @@
 .logo{
     width: 35vw;
     height: 25vh;
-    background-color: rgba(255, 255, 255, 0.568);
+    background-color: rgba(247, 247, 247, 0.514);
     margin-top: 150px;
     display: flex;
     font-family: 'Roboto';
@@ -50,19 +54,30 @@ p{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
 .info{
     width: 65vw;
     height: 35vh;
-    background-color: rgb(44, 49, 44);
+    background-color: var(--bg-color);
+
+    p{
+        font-size: 1.3rem;
+        padding: 55px 100px 0px 40px;
+        font-weight: 550;
+        color: var(--font-color);
+    }
 }
 .frm_holder{
     width: 65vw;
     height: 35vh;
-    background-color: rgb(161, 172, 161);
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1); 
+    position: relative;
+    z-index: 10;
+    background-color: #f1f1f1c9;
 }
 .btns_holder{
-    width: 65vw;
+    width: 65vw;    
     height: 35vh;
-    background-color: rgb(44, 49, 44);
+    background-color: var(--bg-color);
 }
